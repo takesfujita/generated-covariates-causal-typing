@@ -1,0 +1,101 @@
+{
+  "run_label": "generated_covariate_simulations",
+  "master_seed": 20260609,
+  "n_replications": 1000,
+  "python_version": "3.13.5",
+  "numpy_version": "2.3.5",
+  "pandas_version": "2.2.3",
+  "note": "Artificial simulations; no real patient data. Paths are relative to anc/.",
+  "outputs": [
+    {
+      "file": "CITATION.cff",
+      "sha256": "71112cd16dea6323c3e15180a3d30282cdcb40a6c4b682f4b041892453405c6f",
+      "bytes": 918
+    },
+    {
+      "file": "LICENSE",
+      "sha256": "0aa872197b2e20fbc899e2c41a4a0af0fbd55625551fcd740f6a45c41c5289df",
+      "bytes": 1090
+    },
+    {
+      "file": "README.md",
+      "sha256": "41b66a185404d2d84570c5385634a007a96cd140dab4b64c637ce5b8f9c877e0",
+      "bytes": 1795
+    },
+    {
+      "file": "requirements.txt",
+      "sha256": "6979eeaed30ec7f45ff725f33240136e49c396fdf8a5ef12964fb2960c8a5d1e",
+      "bytes": 27
+    },
+    {
+      "file": "results/table4_replicates.csv",
+      "sha256": "2194d788634262b93b13caa0ea273483e8f30d314bfab3ec7a8e9c92bb98ffd0",
+      "bytes": 1614351
+    },
+    {
+      "file": "results/table4_summary.csv",
+      "sha256": "a76d150cb707d467ca09240b06d634d93e8b81a8d34435fd2b13ab1ee33c4727",
+      "bytes": 2863
+    },
+    {
+      "file": "results/table5_replicates.csv",
+      "sha256": "1286fe418f1e5760124f8bb52a93877eecc8e8d0b4e94dbc21d3b3431ca39ed7",
+      "bytes": 1313136
+    },
+    {
+      "file": "results/table5_summary.csv",
+      "sha256": "5c0ea7c6398c132202f6733a44daeb1a954c01add7ea8a3ead6914bc90530e4f",
+      "bytes": 2335
+    },
+    {
+      "file": "results/table6_replicates.csv",
+      "sha256": "59ffa10a719ab59b8c3a315f0e7dc83a6df73dcc5ab438a3eb97909be39cf94b",
+      "bytes": 227492
+    },
+    {
+      "file": "results/table6_summary.csv",
+      "sha256": "8838b10b7346e1656dba2f578f7ad0c585e9131dc2941a46222b83de604d629d",
+      "bytes": 447
+    },
+    {
+      "file": "run_generated_covariate_simulations.py",
+      "sha256": "da34a0d1f037d8d0a90461882cdbbeede382538595201863b8d9919a9b7f342c",
+      "bytes": 17463
+    },
+    {
+      "file": "run_remaining_parallel.py",
+      "sha256": "037a48774eae483d68bcb3b8ce0aac7b4b55cf32212935e1f43655835f76a0c1",
+      "bytes": 2386
+    },
+    {
+      "file": "verify_full_rerun.py",
+      "sha256": "560a0fa4da637ede6e8e16a02fc0b3b2fbfe459bc7930c251c9abead5f132608",
+      "bytes": 2658
+    },
+    {
+      "file": "verify_results.py",
+      "sha256": "80379bf86571f61f106208ba847179a3d25c95473bc89daabb33370880e6a6d0",
+      "bytes": 4219
+    },
+    {
+      "file": "../manuscript_final.tex",
+      "sha256": "e28b9253b24cc8e562fbdb1b77ef7c651b225602b088913982dad8008e8daa9b",
+      "bytes": 99600
+    }
+  ],
+  "tables": {
+    "table4": {
+      "replicate_rows": 15000,
+      "summary_rows": 15
+    },
+    "table5": {
+      "replicate_rows": 12000,
+      "summary_rows": 12
+    },
+    "table6": {
+      "replicate_rows": 2000,
+      "summary_rows": 2
+    }
+  },
+  "package_version": "2.2.3"
+}

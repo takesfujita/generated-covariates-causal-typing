@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this reproducibility package, please cite the accompanying manuscript."
+title: "Simulation reproducibility package for: When AI Generates Covariates: Causal Typing and Estimand Drift in Sequential Experiments"
+type: software
+version: "2.2.3"
+date-released: "2026-09-07"
+authors:
+  - family-names: "Fujita"
+    given-names: "Takes"
+    affiliation: "VRI"
+  - family-names: "Hattori"
+    given-names: "Nobutaka"
+    affiliation: "Department of Neurology, Juntendo University School of Medicine"
+keywords:
+  - causal inference
+  - generated covariates
+  - estimand drift
+  - simulation
+  - reproducibility
+abstract: "Reproducibility package containing artificial data-generating mechanisms, replicate-level results, summary tables with Monte Carlo standard errors, verification scripts, and file hashes for the controlled failure-mode simulations in When AI Generates Covariates."
