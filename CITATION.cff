@@ -3,7 +3,7 @@ message: "If you use this reproducibility package, please cite the accompanying 
 title: "Simulation reproducibility package for: When AI Generates Covariates: Causal Typing and Estimand Drift in Sequential Experiments"
 type: software
 version: "2.2.3"
-date-released: "2026-09-07"
+date-released: "2026-09-17"
 authors:
   - family-names: "Fujita"
     given-names: "Takes"
@@ -18,3 +18,18 @@ keywords:
   - simulation
   - reproducibility
 abstract: "Reproducibility package containing artificial data-generating mechanisms, replicate-level results, summary tables with Monte Carlo standard errors, verification scripts, and file hashes for the controlled failure-mode simulations in When AI Generates Covariates."
+identifiers:
+  - type: other
+    value: "arXiv:2609.17772"
+    description: "arXiv preprint"
+url: "https://github.com/takesfujita/generated-covariates-causal-typing"
+preferred-citation:
+  type: article
+  title: "When AI Generates Covariates: Causal Typing and Estimand Drift in Sequential Experiments"
+  authors:
+    - family-names: Fujita
+      given-names: Takes
+    - family-names: Hattori
+      given-names: Nobutaka
+  year: 2026
+  journal: "arXiv preprint arXiv:2609.17772"
